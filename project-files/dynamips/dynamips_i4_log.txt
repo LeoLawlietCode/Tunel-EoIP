@@ -1,0 +1,25 @@
+Feb 26 12:37:35.718 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Feb 26 12:37:35.720 HYPERVISOR: Started on IP = localhost, TCP port = 34891.
+Feb 26 12:37:36.198 HYPERVISOR: exec_cmd: hypervisor version 
+Feb 26 12:37:36.199 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\daniel\GNS3\projects\DANIEL2020\project-files\dynamips 
+Feb 26 12:37:36.199 GENERAL: working_dir=C:\Users\daniel\GNS3\projects\DANIEL2020\project-files\dynamips
+Feb 26 12:37:36.199 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\daniel\GNS3\projects\DANIEL2020\project-files\dynamips\e32be9e7-2ff8-4273-8ee3-24b0218e8d5c 
+Feb 26 12:37:36.200 GENERAL: working_dir=C:\Users\daniel\GNS3\projects\DANIEL2020\project-files\dynamips\e32be9e7-2ff8-4273-8ee3-24b0218e8d5c
+Feb 26 12:37:36.200 HYPERVISOR: exec_cmd: vm create R2 2 c7200 
+Feb 26 12:37:36.203 VM: VM R2 created.
+Feb 26 12:37:36.204 HYPERVISOR: exec_cmd: vm set_con_tcp_port R2 5003 
+Feb 26 12:37:36.204 HYPERVISOR: exec_cmd: c7200 get_mac_addr R2 
+Feb 26 12:37:36.204 HYPERVISOR: exec_cmd: vm get_status R2 
+Feb 26 12:37:36.205 HYPERVISOR: exec_cmd: vm slot_add_binding R2 0 0 C7200-IO-FE 
+Feb 26 12:37:36.206 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/daniel/Downloads/TODO/imagenes/c7200-adventerprisek9-mz.124-24_unZ.BIN 
+Feb 26 12:37:36.206 HYPERVISOR: exec_cmd: vm set_exec_area R2 64 
+Feb 26 12:37:36.207 HYPERVISOR: exec_cmd: vm set_ram R2 512 
+Feb 26 12:37:36.207 HYPERVISOR: exec_cmd: vm set_nvram R2 512 
+Feb 26 12:37:36.208 HYPERVISOR: exec_cmd: vm set_disk0 R2 0 
+Feb 26 12:42:07.668 HYPERVISOR: exec_cmd: vm get_status R2 
+Feb 26 12:42:07.669 HYPERVISOR: exec_cmd: vm extract_config R2 
+Feb 26 12:42:07.670 HYPERVISOR: exec_cmd: vm delete R2 
+Feb 26 12:42:07.671 VM: VM R2 destroyed.
+Feb 26 12:42:07.695 HYPERVISOR: exec_cmd: hypervisor stop 
+Feb 26 12:42:07.810 HYPERVISOR: Stopped.
+Feb 26 12:42:07.810 GENERAL: reset done.
