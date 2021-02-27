@@ -18,3 +18,9 @@ Red LAN:
 
 Usuario y contraseña para ingresar a router Mikrotik 
 se debe pedir a los desarrolladores.
+
+Recursos extraídos de:
+Mikrotik:
+https://download.mikrotik.com/routeros/6.48.1/chr-6.48.1.img.zip
+Cisco:
+http://tfr.org/cisco-ios/
